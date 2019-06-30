@@ -4,7 +4,7 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.0"
     defaultConfig {
-        applicationId "com.example.spotifyinterface"
+        applicationId "com.example.leopard"
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 1
@@ -26,5 +26,8 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-    implementation 'androidx.gridlayout:gridlayout:1.0.0'
+
+    implementation project(':spotify-app-remote')
+    implementation project(':spotify-auth')
+    implementation "com.google.code.gson:gson:2.8.5"
 }

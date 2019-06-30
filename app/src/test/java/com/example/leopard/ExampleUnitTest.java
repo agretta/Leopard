@@ -1,4 +1,4 @@
-package com.example.spotifyinterface;
+package com.example.leopard;
 
 import org.junit.Test;
 
